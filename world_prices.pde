@@ -172,9 +172,9 @@ void keyPressed() {
       second() + ".png"); 
 
   if(key == ' ' && !recording) {
-    String video_file_name = "videos/" + year() + "_" + month() + "_" + day() + "_" + hour() + "_" + minute() + "_" + second() + ".ogg";
-    // Save as THEORA in a OGG file as MEDIUM quality:
-    mm = new GSMovieMaker(this, width, height, video_file_name, GSMovieMaker.THEORA, GSMovieMaker.MEDIUM, fps);
+    String video_file_name = "videos/" + year() + "_" + month() + "_" + day() + "_" + hour() + "_" + minute() + "_" + second() + ".avi";
+    // Save as XVID in a AVI file as MEDIUM quality:
+    mm = new GSMovieMaker(this, width, height, video_file_name, GSMovieMaker.XVID, GSMovieMaker.BEST, fps);
     mm.start();
     recording = true;
   } else if (key == ' ' && recording) {

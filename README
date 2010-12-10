@@ -4,6 +4,17 @@ Requirements:
 =============
 
 1. Processing 1.1+: www.processing.org
+2. GSVideo: From http://gsvideo.sourceforge.net/
+        i. Extract the files to the $SKETCHBOOK/libraries folder
+        ii. Remember to restart Processing
 
-To run the file, open it in Processing, and then click Run or press Ctrl + R.
+Currently, the video is recorded in the OGG format.
+
+HowTo
+=====
+
+While running:
+1. To take screenshots: Press 's'.
+2. To start/stop recording a video: Press ' ' (space).
+
 
